@@ -1,0 +1,417 @@
+/* Layout for desktop version */
+
+body {
+/*background: url(http://i53.tinypic.com/im0bgl.jpg);
+background: url("./images/envelope_bg.gif") repeat-x scroll left top #BED9EB;*/
+background: #e4e4e6;
+}
+
+h1 {
+font-family: "adelle-1","adelle-2", Georgia, Serif;
+}
+
+h2 {
+font-family: "adelle-1","adelle-2", Georgia, Serif;
+}
+
+.largeprint {
+font-size: 16px;
+}
+
+.smallprint {
+font-size: 12px;
+}
+
+.ondarkest {
+background: #202020;
+color: #fff;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.ondarkest h2 {
+color: #fff;
+}
+
+.ondarkfade {
+background: #202020 url("./images/header_backdrop_2px.jpg") repeat-x left top;
+color: #fff;
+padding-top: 10px;
+padding-bottom: 0px;
+}
+
+.ondark {
+background: #202028;
+color: #fff;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.onmedium {
+background: #f5f5f5;
+color: #000000;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.onlight {
+background: #f1f1f1;
+color: #000000;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.onwhite {
+background: #ffffff;
+color: #8c8c8c;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+/* Menu stuff*/
+/* Main Navigation
+   -------------------------------- */
+
+#navigation {
+    height: 41px;
+    float: left;
+    /*position: absolute;*/
+    top: 62px;
+    right: 0px;
+}
+
+#navigation .left {
+    float: left;
+    width: 5px;
+    height: 41px;
+    /* background: url('/images/navigation.png') no-repeat left top; */
+    background: url('./images/navigation_l.png') no-repeat left top;
+}
+
+#ie6 #navigation .left {
+    background: transparent none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/navigation_l.png', sizingMethod='scale');
+    zoom: 1;
+}
+
+#navigation .right {
+    float: left;
+    width: 3px;
+    height: 41px;
+    background: url('./images/navigation.png') no-repeat right top;
+}
+
+#navigation ul,
+#navigation ul li {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 38px;
+}
+
+#navigation ul {
+    height: 41px;
+    background: url('./images/navigation.png') repeat-x 0 -41px;
+}
+
+#navigation ul li a {
+    float: left;
+    display: block;
+    height: 41px;
+    padding: 0 18px;
+    color: #aaa;
+    text-decoration: none;
+    background: url('./images/navigation_s.png') no-repeat right top;
+}
+
+#navigation ul li.selected a {
+    color: #fff;
+}
+
+#navigation ul li.last1 a{
+    background-image: none;
+}
+
+#navigation ul li a:hover {
+    color: #fff;
+}
+
+/* Main Navigation
+   -------------------------------- */
+
+#login_navigation {
+    height: 41px;
+    float: left;
+    /*position: absolute;*/
+    top: 62px;
+    right: 0px;
+}
+
+#login_navigation .left {
+    float: left;
+    width: 5px;
+    height: 41px;
+    /* background: url('/images/navigation.png') no-repeat left top; */
+    background: url('./images/navigation_l.png') no-repeat left top;
+}
+
+#ie6 #login_navigation .left {
+    background: transparent none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/navigation_l.png', sizingMethod='scale');
+    zoom: 1;
+}
+
+#login_navigation .right {
+    float: left;
+    width: 3px;
+    height: 41px;
+    background: url('./images/navigation.png') no-repeat right top;
+}
+
+#login_navigation ul,
+#login_navigation ul li {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 38px;
+}
+
+#login_navigation ul {
+    height: 41px;
+    background: url('./images/navigation.png') repeat-x 0 -41px;
+}
+
+#login_navigation ul li a {
+    float: left;
+    display: block;
+    height: 41px;
+    padding: 0 18px;
+    color: #aaa;
+    text-decoration: none;
+    background: url('./images/navigation_s.png') no-repeat right top;
+}
+
+#login_navigation ul li.selected a {
+    color: #fff;
+}
+
+#login_navigation ul li.last1 a{
+    background-image: none;
+}
+
+#login_navigation ul li a:hover {
+    color: #fff;
+}
+
+
+
+
+
+.examplecolumn {
+height: 40px;
+background: #15b953 url(http://i52.tinypic.com/2gugmj5.jpg);
+}
+
+.examplecolumn2 {
+height: 400px;
+background: #15b953 url(http://i52.tinypic.com/2gugmj5.jpg);
+}
+
+.subhead {
+color: #15b953;
+}
+
+.introtitle {
+padding-top: 70px;
+padding-bottom: 50px;
+}
+
+.introsection {
+padding-bottom: 50px;
+}
+
+.markup {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.post {
+border-top: 1px solid #747474;
+padding-bottom: 30px;
+margin-top: 60px;
+}
+
+.date {
+border-top: 3px solid #747474;
+padding-top: 15px;
+}
+
+.postcontent {
+padding-top: 18px;
+}
+
+.license {
+padding-top: 50px;
+padding-bottom: 30px;
+background: #e7e7e7 url(http://i52.tinypic.com/2gugmj5.jpg);
+color: #fff;
+}
+
+.license a {
+color: #fff;
+border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.ongreenlink {
+color: #fff;
+border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.downloadbutton {
+text-align: center;
+background: #15b953 url(../img/buttonbgs.png);
+border: 1px solid #000;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 24px;
+}
+
+.downloadbutton:hover {
+background-position: 0px 160px;
+}
+
+.downloadbutton:active {
+background-position: 0px 80px;
+}
+
+.downloadbutton a {
+border-bottom: none;
+color: #003120;
+display: block;
+padding: 10px 10px;
+text-shadow:0px 1px 0px #75ff78;
+}
+
+.download {
+padding-bottom: 10px;
+background: url(../img/downarrow.png) no-repeat;
+padding-left: 40px;
+font-size: 20px;
+border: none;
+}
+
+.beta {
+font-family: Georgia, serif;
+font-size: 13px;
+font-style: italic;
+font-weight: 100;
+}
+
+.teal {
+color: #0eaeb4;
+}
+
+.red {
+color: #e20000;
+}
+
+.purple {
+color: #8002d9;
+}
+
+.lightgrey {
+color: #868686;
+}
+
+.burntorange {
+color: #bc3e00;
+}
+
+.multicolumn {
+-moz-column-count: 3;
+-moz-column-gap: 3em;
+-webkit-column-count: 3;
+-webkit-column-gap: 3em;
+}
+
+.resizebanner {
+position: fixed;
+right:0px;
+bottom:0px;
+padding: 0px;
+margin: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+
+.twitter p {
+margin-bottom: 10px;
+}
+
+.contact {
+clear: both;
+}
+
+img[alt="Lily"] {
+-webkit-transition: -webkit-transform 0.3s ease-in-out;
+-moz-transition: -moz-transform 0.3s ease-in-out;
+-o-transition: -o-transform 0.3s ease-in-out;
+transition: transform 0.3s ease-in-out;
+}
+
+img[alt="Lily"]:hover {
+-webkit-transform: rotate(-3deg) scale(1.3) translate(-40px, -40px);
+-moz-transform: rotate(-3deg) scale(1.3) translate(-40px, -40px);
+-o-transform: rotate(-3deg) scale(1.3) translate(-40px, -40px);
+transform: rotate(-3deg) scale(1.3) translate(-40px, -40px);
+-webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+.screencast {
+padding: 0px 0px 50px 0px;
+}
+
+.push {
+height: 1px;
+}
+
+iframe {
+max-width: 300px;
+}
+
+/* Layout for mobile version */
+
+@media handheld, only screen and (max-width: 767px) {
+
+.examplecontainer, .examplecolumn2, .resizebanner, .onteal	 {
+display: none;
+}
+
+blockquote {
+border: none;
+font-style: italic;
+}
+
+.multicolumn {
+-moz-column-count: 1;
+-webkit-column-count: 1;
+}
+
+}
+
+/* Provide higher res assets for iPhone 4 */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+.download {
+background: url(../img/downarrow@2x.png) no-repeat;
+background-size: 27px 28px;
+}
+
+}

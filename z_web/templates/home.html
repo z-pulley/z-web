@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block pageidblock %}{{pageid}}{% endblock %}
+
+{% block onPageLoad %}
+        $('#sliderBlock').bjqs({
+          'animation' : 'slide',
+          'showControls' : false,
+          'rotationSpeed': 5000,
+          'width' : 920,
+          'height' : 250
+        });
+{% endblock %}
+
+{% block content %}
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <!-- start Basic Jquery Slider -->
+        <div id="sliderBlock">
+        <ul class="bjqs">
+          <li><img src="http://www.z-pulley.com/wp-content/gallery/home/aws.png" title="AWS - Working in the Cloud" width="920"></li>
+          <li><img src="http://www.z-pulley.com/wp-content/gallery/home/cugos_web.png" title="CUGOS - Helping foster a vibrant Open GeoSpatial Community" width="920"></li>
+          <li><img src="http://www.z-pulley.com/wp-content/gallery/home/osm_render2.png" title="OSM - Working with the Open Base Map of the world" width="920"></li>
+        </ul>
+        </div>
+        <!-- end Basic jQuery Slider -->
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span-two-thirds">
+          <!-- pre class="prettyprint" -->
+          <br>
+          <blockquote>
+            <h4>Z-Pulley Inc. is a geospatial software consulting and development company that specializes in open-source GIS and mapping applications. We create map-based software and decision-support tools for a wide range of clients and industries including government, enterprise, environmental and non-profits.</h4>
+          </blockquote>
+          <!-- /pre -->
+        </div>
+        <div class="span-one-third">
+          <br>
+          <blockquote>
+            <h4>Recent News</h4>
+            <p>Story #1</p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+            &mdash;
+            <p>Story #1</p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+          </blockquote>
+       </div>
+      </div>
+
+      <footer>
+        <p>&copy; Z-Pulley Inc. 2011</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+{% endblock %}
